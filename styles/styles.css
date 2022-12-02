@@ -4,11 +4,6 @@
 }
 
 body {
-    /*  background-color: #8D99AE; 
-     background-color: #EDF2F4;
-    background: rgb(121,135,130);
-    background: linear-gradient(90deg, rgba(121,135,130,1) 0%, rgba(162,164,164,1) 35%, rgb(216, 224, 226) 100%);
-    */
     background-image: url("./images/bg_img.png");
 }
 
@@ -333,12 +328,14 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 702px) {
     .divDescripcion {
+        margin-left: 15vw;
+        margin-right: 10vw;
         width: 70vw;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        font-size: 10px;
+        font-size: 14px;
     }
     .navegacion {
         display: flex;
