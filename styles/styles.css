@@ -34,7 +34,7 @@ body {
     font-family: 'Orbitron', sans-serif;
     font-size: 4em;
     font-style: italic;
-    text-align: center;
+    text-align: left;
     text-shadow: 3px 3px 3px black;
     padding-left: 1vh;
     padding-top: 2vh;
@@ -43,6 +43,21 @@ body {
     background-repeat: no-repeat, repeat; 
     background-size: cover;
     color: white;
+}
+
+.btn-imagenes{
+    width: 7%;
+    color: white;
+    padding: 5px;
+    margin: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #ff0a0a5e;
+}
+
+.btn-imagenes:hover{
+    background-color: #ff0a0ac9;
 }
 
 .tituloToyota {
@@ -590,6 +605,7 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #ff0a0a;
 }
+
 
 /* PIE */
 
